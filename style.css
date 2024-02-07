@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #39014e, #550b70);
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #fff;
+  width: 450px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.title {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  color: #39014e;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+span.title svg {
+  color: #4425258f;
+  margin-left: 10px;
+}
+.input-box {
+  background-color: #f2f2f2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 50px;
+}
+.input-box input[type="text"] {
+  background-color: transparent;
+  flex: 1;
+  border: 0;
+  outline: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.input-box input[type="text"]::placeholder {
+  color: #666666;
+  font-weight: 400;
+}
+.input-box input[type="button"] {
+  padding: 12px 35px;
+  text-transform: capitalize;
+  border: 0;
+  outline: 0;
+  background: tomato;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.list-container {
+  margin-top: 20px;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  list-style: none;
+}
+.list-item:last-child {
+  margin-bottom: 0px;
+}
+.item svg {
+  font-size: 18px;
+  color: #f95959;
+  margin-right: 10px;
+}
+
+.item span {
+  text-transform: capitalize;
+}
+.active {
+  text-decoration: line-through;
+}
+.delete-item svg {
+  font-size: 18px;
+  color: #f95959;
+  cursor: pointer;
+}
